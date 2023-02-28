@@ -1,6 +1,6 @@
-Spotify Playgen
+Spotify Playlist Creator
 
-Spotify Playgen is a Python application built with tkinter and Spotipy that allows users to create playlists in their Spotify account based on their top artists, top songs, and recently played songs.
+Spotify Playlist Creator is a Python application built with tkinter and Spotipy that allows users to create playlists in their Spotify account based on their top artists, top songs, and recently played songs.
 
 Features
 Login: Users can log in to their Spotify account using their credentials and authenticate the application.
@@ -16,7 +16,7 @@ Playlist Creation: Once the user has selected the artists or songs they want to 
 Installation
 
 1. Clone the repository using the following command:
-   git clone https://github.com/RyanRoth360/spotifyProject.git
+   git clone https://github.com/RyanRoth360/spotufyPlaylistCreator.git
 
 2. Install the required dependencies using the following command:
    pip install -r requirements.txt
@@ -26,7 +26,7 @@ Installation
    pip install tkinter
    pip install spotipy.oauth2
 
-4. Before you can use Spotify Paygen, you'll need to set up a Spotify developer account and create a new Spotify application. Once you've done that, you can enter your Spotify application credentials into the cred.py file in the root directory of the application. https://developer.spotify.com/
+4. Before you can use Spotify Playlist Creator, you'll need to set up a Spotify developer account and create a new Spotify application. Once you've done that, you can enter your Spotify application credentials into the cred.py file in the root directory of the application. https://developer.spotify.com/
 
 License
 The Spotify Playlist Creator is released under the MIT License. See the LICENSE file for more information.
