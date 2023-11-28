@@ -56,6 +56,6 @@ def handle_selection(selection):
             try:
                 track_uris.append(item['uri'])
             except spotipy.exceptions.SpotifyException:
-                print("bruh")
+                print("Track selection is unsuccessful")
 
     return {'sp': sp, 'names' : names, 'ids' : track_uris}
